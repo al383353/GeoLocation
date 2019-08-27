@@ -1,0 +1,74 @@
+<!--SIW001 - Programming (2018/2019) -->
+<!--Assignment_2 -->
+<!--SENAIT MELES ALEMA -->
+
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+
+    <!-- leaflet -->
+	<link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+    <script src="https://npmcdn.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    
+    <!-- turf -->
+    <script src='https://npmcdn.com/@turf/turf/turf.min.js' defer></script>
+
+    <!-- custom libraries --> 
+    <script src="utils.js"></script>
+    <link rel="stylesheet" href="assignment2-style.css"/>
+    <script src="assignment2-script.js" defer></script>
+</head>
+
+<body>
+<div class="InnerBody">
+<h1 class="mainHeader">Assignment. Leaflet.js, Turf.js, event handling, and HTML DOM Tables, GeoLocation API</h1>
+
+<header >
+    <h2 class="pad">Input Parameters</h2>
+</header>
+<main>
+    <section class="pad2">
+        <label>Bounding box:</label><span>Campus UJI</span>
+        <button id="btn-bbox" type="button">View on map</button>
+        &nbsp;&nbsp;
+        <label>Number of points:</label> <input id="num" type="number">
+        <button id="btn-points" type="button">Generate random points!</button>
+    </section>
+
+    <section class="pad3">
+        <button id="btn-myposition" type="button">Where am I?</button>
+        <span id="my-lon" class="hidePosition"></span>
+        <span id="my-lat" class="hidePosition"></span>
+        
+    </section>
+<br/>
+    <br><br>
+
+    <section id="table-section">
+        <div id="table-div" class="hide">
+        <table id="tbl">
+            <thead id="tableHead" class="hideHead">
+                <tr id="tblHead">
+                    <th>Longitud</th>&nbsp;&nbsp;&nbsp;
+                    <th>Latitud</th>&nbsp;&nbsp;&nbsp;
+                    <th>Action</th>
+                </tr>
+            </thead>         
+            <tbody id="tableID" class="hide2">
+                <th>123</th>&nbsp;&nbsp;&nbsp;
+                <th>444</th>&nbsp;&nbsp;&nbsp;
+                <th>view</th>
+            </tbody>    
+        </table>
+        </div>
+    </section>
+    <section id="map-section">
+        <div id="mapId">  </div>
+        <div id="map-div">  </div>
+         <!--   <script>leafletfInitMap('map-div');</script>   -->
+    </section>
+</main> 
+</div>
+</body>
+</html>
