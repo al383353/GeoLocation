@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(251, 251, 255);
+    width: auto;
+    padding: 0 10%;	
+}
+.InnerBody{
+    width: 1000px;
+    border: 5px solid rgb(95, 95, 138);
+    border-style: outset;
+    border-left-style: outset;
+    position: center;
+    box-shadow: 5px;
+    background-color: rgb(212, 232, 247);
+    padding-top: -15px;
+    height: auto;
+}
+h1{
+    padding-top: -10px;
+    margin-block-start: 0.01em;
+    background-color: rgb(50, 50, 109);
+}
+.mainHeader{
+   /* border: 1px solid rgb(179, 134, 134);*/
+    background-color: rgb(50, 50, 109);
+    color:rgb(247, 238, 238);
+    
+    padding-left: 5px;
+}
+.pad{
+    padding-left: 15px;
+    font-weight: bold;
+}
+.pad2{
+    padding-left: 15px;
+   /* float: left;*/
+}
+
+.pad3{
+    padding-left: 15px;
+    float: left;
+    padding-top: 10px;
+}
+#tblHead{
+    background-color: rgb(200, 199, 207);
+}
+#tbl{
+    padding-left: 10px;
+}
+#mapId{
+    width: 500px;
+    height: 350px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+#table-div{
+    align-content: flex-start;
+    width: 460px;
+    float: left;
+    
+}
+.hide2{   /*hides the tbody which contains the rows*/
+    display: none;
+}
+
+.hidePosition{
+    display: none;
+}
+.hideHead{
+    display: none;
+    text-align: left;
+}
+.rowClass1{
+    background-color: rgb(11, 98, 212);
+    color: rgb(245, 246, 247);
+    box-shadow: aqua;
+}
+#cellId{
+    background-color: brown;
+    color: blanchedalmond;
+}
+.viewBtn{
+    background-color: rgb(200, 199, 207);
+    width: 70px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#num{
+    /*width: 150px;*/
+
+}
+#btn-bbox, #btn-myposition, #btn-points{
+    font-weight: bold;
+}
