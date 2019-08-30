@@ -87,10 +87,6 @@ label{
     font-style: normal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#num{
-    /*width: 150px;*/
-
-}
 #btn-bbox, #btn-myposition, #btn-points{
     font-weight: bold;
 }
